@@ -1,0 +1,21 @@
+@import './Scss/bootstrap';
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+  background: linear-gradient(to right, #457fca, #5691c8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
